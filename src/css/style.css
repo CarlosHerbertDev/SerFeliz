@@ -1,7 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Oswald:wght@200..700&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
 body {
     background-color: #fff;
@@ -16,7 +18,7 @@ body {
 }
 
 .header .image-logo {
-    margin-left: 1%;
+    margin-left: 3%;
 }
 
 .header .image-logo img {
@@ -25,7 +27,7 @@ body {
 }
 
 .header .navegation {
-    margin-right: 1%;
+    margin-right: 3%;
 }
 
 .header .navegation ul {
@@ -61,6 +63,7 @@ body {
 .main {
     display: flex;
     justify-content: center;
+    align-items: center;
     background-image: url("../images/serfeliz.jpeg");
     background-attachment: fixed;
     background-position: center;
@@ -70,10 +73,9 @@ body {
     width: 100%;
 }
 
-.main .main-title {
+.main .home .title {
     display: flex;
     flex-direction: column;
-    margin-top: 50px;
     font-size: 6rem;
     font-family: "Permanent Marker", cursive;
     color: #5b88a4;
@@ -81,12 +83,12 @@ body {
 
 }
 
-.main .main-title span {
+.main .home .title span {
     color: #ed9121;
     margin-left: 100px;
 }
 
-.main .main-title, .main span {
+.main .home .title, .main span {
     font-size: 6rem;
 }
 
@@ -95,8 +97,37 @@ body {
     /* top: 100%; */
     font-size: 3.5rem;
     background-color: #5b88a4;
+    width: 100%;
+    /* display: flex; */
+    /* flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+    
 }
 
+.quem-somos .title {
+    /* font-family: "Kanit", sans-serif; */
+
+    /* font-family: "Playwrite GB S", cursive; */
+
+    font-family: "Permanent Marker", sans-serif ;
+
+
+    font-size: 3.5rem;
+    text-align: center;
+    color: #ed9121;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+}
+
+
+.quem-somos .info {
+    width: 100%;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-left: 1%;
+    font-family: "Oswald", sans-serif;
+}
 
 
 
