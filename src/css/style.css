@@ -138,7 +138,6 @@ img {
 
 
 .quem-somos .info {
-    width: 100%;
     font-weight: 400;
     font-size: 2rem;
     margin-left: 1%;
@@ -149,14 +148,72 @@ img {
 
 
 .galeria img {
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
 }
 
 
 
 
+.lg-custom-thumbnails {
+    &.lg-outer {
+        width: auto;
+        right: 225px;
+        left: 10px;
 
+        .lg-thumb-outer {
+            left: auto;
+            top: 0;
+            width: 225px;
+            bottom: 0;
+            position: fixed;
+            right: 0;
+
+
+            max-height: none;
+
+
+            background-color: #999;
+            padding-left: 5px;
+            padding-right: 5px;
+            margin: 0 -10px;
+            overflow-y: auto;
+
+     
+            transform: translate3d(30%, 0, 0);
+            opacity: 0;
+            will-change: transform opacity;
+            transition: transform 0.15s cubic-bezier(0, 0, 0.25, 1) 0s, cubic-bezier(
+                        0,
+                        0,
+                        0.25,
+                        1
+                    ) 0.15s;
+        }
+
+        &.lg-thumb-open {
+            .lg-thumb-outer {
+                transform: translate3d(0, 0, 0);
+                opacity: 1;
+            }
+        }
+
+        .lg-thumb-item {
+            filter: grayscale(100%);
+            will-change: filter;
+            transition: filter 0.12s ease-in, border-color 0.12s ease;
+            &:hover,
+            &.active {
+                filter: grayscale(0);
+                border-color: #545454;
+            }
+        }
+
+        .lg-thumb {
+            padding: 5px 0;
+        }
+    }
+}
 
 
 
