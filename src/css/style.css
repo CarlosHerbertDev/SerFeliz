@@ -9,6 +9,7 @@ body {
     background-color: #fff;
     height: 100vh;
     margin: 0 auto;
+    font-family: "Oswald", sans-serif;
 }
 
 img {
@@ -122,8 +123,8 @@ img {
     max-width: 1440px;
     margin: 0 auto;
     display: flex;
-    gap: 100px;
-    margin-top: 120px;
+    gap: 10px;
+    margin-top: 80px;
 }
 .quem-somos .title {
     /* font-family: "Kanit", sans-serif; */
@@ -147,14 +148,47 @@ img {
     font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
+    padding: 2%;
 }
+
+.quem-somos .container .info strong{
+    font-size: 1.5rem;
+    font-family: "Oswald", sans-serif;
+}
+
+.quem-somos .container .info .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    gap: 8px;
+}
+
+.quem-somos .container .info .cards .card,
+.quem-somos .container .info .gospel {
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.quem-somos .container .info .cards .card h1 {
+    font-size: 2rem;
+}
+
+.quem-somos .container .info .cards .card p,
+.quem-somos .container .info .gospel p{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
 
 .quem-somos .container .images {
     width: 50%;
     border-radius: 10px;
     column-count: 3;
-    column-gap: 10px;
+    column-gap: 8px;
+    padding: 2%;
 }
 
 
@@ -168,14 +202,17 @@ img {
 
 }
 
+    @media (max-width: 600px) {
+        .quem-somos .container {
+            flex-direction: column;
+        }
+        .quem-somos .container .images, .quem-somos .container .info {
+            width: 100%;
+        }
 
 
 
-
-
-
-
-
+    }
 
 
 
