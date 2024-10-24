@@ -5,7 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Obra Lumen</title>
     <link rel="stylesheet" href="./src/css/reset.css">
-    <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/global.css">
+    <link rel="stylesheet" href="./src/css/secoes/header.css">
+    <link rel="stylesheet" href="./src/css/secoes/main.css">
+    <link rel="stylesheet" href="./src/css/secoes/quem-somos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lightgallery.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-autoplay.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightgallery/2.7.2/css/lg-zoom.min.css" integrity="sha512-vIrTyLijDDcUJrQGs1jduUCSVa3+A2DaWpVfNyj4lmXkqURVQJ8LL62nebC388QV3P4yFBSt/ViDX8LRW0U6uw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
@@ -19,10 +22,10 @@
 </head>
 <body>
     <header class="header">
-        <div class="image-logo">
-            <img src="./src/images/lumen-logo.avif" alt="logo-lumen">
-            <p class="title-obra-lumen"> Obra <span>Lumen</span></p>
-        </div>
+            <a href="#home" class="image-logo">
+                <img src="./src/images/lumen-logo.avif" alt="logo-lumen">
+                <p class="title-obra-lumen"> Obra <span>Lumen</span></p>
+            </a>
         <nav class="navegation last-one">
             <ul>
                 <li><a href="#quem-somos">Quem somos?</a></li>
@@ -33,8 +36,7 @@
             </ul>
         </nav>
     </header>
-    <main class="main">
-        <div class="home">
+    <main class="main" id="home">
             <h1 class="title">Ser Feliz! <span> Fazendo o outro feliz!</span></h1>
     </main>
 

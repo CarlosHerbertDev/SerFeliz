@@ -1,0 +1,62 @@
+.header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding-inline: 40px;
+}
+
+.header .image-logo {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    font-weight: 600;
+}
+
+.header .image-logo img {
+    width: 70px;
+    height: 60px;
+}
+
+.header .image-logo .title-obra-lumen {
+    display: flex;
+    flex-direction: column;
+    color: #5b88a4;
+    text-transform: uppercase;
+    font-size: 1.3rem;
+}
+
+.header .image-logo .title-obra-lumen span {
+    font-size: 1.4rem;
+    margin-left: 8px;
+}
+
+.header .navegation ul {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 3.5rem;
+    display: flex;
+    gap: 40px;
+    
+}
+
+.header .navegation ul a {
+    color: #5b88a4;
+    transition: 0.4s;
+}
+.header .navegation ul a:hover {
+    color: #ed9121;
+}
+
+.header .navegation ul li:last-child a {
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #ed9121;
+    border-radius: 15px;
+}
+
+.header .navegation ul li:last-child a:hover {
+    padding: 13px 15px
+}

@@ -1,0 +1,99 @@
+.quem-somos {
+    font-size: 3.5rem;
+    background-color: #5b88a4;
+    background-size: contain;
+}
+
+.quem-somos .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+    gap: 10px;
+    margin-top: 80px;
+}
+.quem-somos .title {
+    padding-top:  70px;
+    font-family: "Permanent Marker", sans-serif ;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #ed9121;
+    text-shadow: black 0.1em 0.1em 0.2em;
+    text-transform: uppercase;
+}
+
+.quem-somos .title .animate__fadeIn {
+    animation-delay: 0.4s;
+
+}
+.quem-somos .container .info {
+    width: 50%;
+    font-weight: 300;
+    font-size: 3rem;
+    margin-left: 1%;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 2%;
+}
+
+.quem-somos .container .info strong, 
+.quem-somos .container .info i {
+
+    font-size: 1.8rem;
+}
+
+.quem-somos .container .info .cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    gap: 8px;
+}
+
+.quem-somos .container .info .cards .card,
+.quem-somos .container .info .gospel {
+    text-align: center;
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.quem-somos .container .info .cards .card h1 {
+    font-size: 2rem;
+}
+
+.quem-somos .container .info .cards .card p,
+.quem-somos .container .info .gospel p{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+
+.quem-somos .container .images {
+    width: 50%;
+    border-radius: 10px;
+    column-count: 3;
+    column-gap: 8px;
+    padding: 2%;
+}
+
+
+
+.quem-somos .container .images img {
+    width: 100%;
+    margin-bottom: 5px;
+    background-color:#fff;
+    padding: 7px 10px 30px;
+
+}
+
+    @media (max-width: 600px) {
+        .quem-somos .container {
+            flex-direction: column;
+        }
+        .quem-somos .container .images, .quem-somos .container .info {
+            width: 100%;
+        }
+
+
+
+    }
