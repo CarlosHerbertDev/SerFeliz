@@ -5,6 +5,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
 
+
 body {
     background-color: #fff;
     height: 100vh;
@@ -16,6 +17,7 @@ img {
     object-fit: cover;
     width: 100%;
 }
+
 
 .header {
     display: flex;
@@ -101,7 +103,7 @@ img {
     font-family: "Permanent Marker", sans-serif;
     color: #5b88a4;
     text-shadow: black 0.1em 0.1em 0.2em
-
+    
 }
 
 .main .home .title span {
@@ -128,7 +130,7 @@ img {
 }
 .quem-somos .title {
     /* font-family: "Kanit", sans-serif; */
-
+    
     /* font-family: "Playwrite GB S", cursive; */
     padding-top:  70px;
     font-family: "Permanent Marker", sans-serif ;
@@ -139,7 +141,10 @@ img {
     text-transform: uppercase;
 }
 
+.quem-somos .title .animate__fadeIn {
+    animation-delay: 0.4s;
 
+}
 .quem-somos .container .info {
     width: 50%;
     font-weight: 300;
@@ -152,9 +157,10 @@ img {
     padding: 2%;
 }
 
-.quem-somos .container .info strong{
-    font-size: 1.5rem;
-    font-family: "Oswald", sans-serif;
+.quem-somos .container .info strong, 
+.quem-somos .container .info i {
+
+    font-size: 1.8rem;
 }
 
 .quem-somos .container .info .cards {
@@ -235,41 +241,3 @@ img {
 
 
 
-
-
-
-
-.wrapper {
-    /* A altura precisa ser determinada para um valor fixo para funcionar
-    100vh é a altura inteira do navegador */
-    height: 100vh;
-    /* A escala das imagens adicionaria scrollbar, então escondemos */
-    overflow-x: hidden;
-    /* Habilita o scroll na página*/
-    overflow-y: auto;
-    /* Adiciona a perspectiva para 2px. Isso simula a distância ( Z - frente e tras) em relação aos "olhos" do usuário ou navegador .*/
-    perspective: 2px;
-  }
-  
-  .parallax {
-    min-height: 700px;
-    width: 100%;
-
-    background-image: url(../images/png-transparent-obra-lumen-light-logo-jo-light-leaf-text-logo.png);
-    background-attachment: fixed;
-    background-position: center;
-    background-position: no-repeat;
-    background-size: cover;
-  }
-
-  .text {
-    margin-left: 37px;
-    font-size: 89px;
-    color: brown;
-    padding-top: 9%;
-  }
-
-  .image {
-    position: absolute;
-    top: 65%;
-}
