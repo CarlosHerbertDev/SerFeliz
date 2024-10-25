@@ -5,6 +5,14 @@
     align-items: center;
     background-color: #fff;
     padding-inline: 40px;
+    top: 0;
+    z-index: 1;
+    position: fixed;
+    transition: .5s;
+}
+
+.header.hide {
+    transform: translateY(-100%);
 }
 
 .header .image-logo {
