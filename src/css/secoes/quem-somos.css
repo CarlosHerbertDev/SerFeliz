@@ -7,7 +7,6 @@
 .quem-somos .container {
     max-width: 1440px;
     margin: 0 auto;
-    display: flex;
     gap: 10px;
     margin-top: 80px;
 }
@@ -30,7 +29,6 @@
     font-weight: 300;
     font-size: 3rem;
     margin-left: 1%;
-    display: flex;
     flex-direction: column;
     gap: 15px;
     padding: 2%;
@@ -43,7 +41,6 @@
 }
 
 .quem-somos .container .info .cards {
-    display: flex;
     justify-content: center;
     align-items: center;
     flex-basis: 0;

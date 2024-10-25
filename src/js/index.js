@@ -1,6 +1,18 @@
 const gallery = document.getElementById('animated-thumbnails')
 const lastOne = document.querySelectorAll('.last-one')
 const nav = document.querySelector(".header")
+const btnDoar = document.querySelector(".animate__infinite")
+
+
+
+btnDoar.addEventListener('mouseover', () => {
+    btnDoar.classList.add("animate__heartBeat")
+})
+
+btnDoar.addEventListener('mouseout', () => {
+    btnDoar.classList.remove("animate__heartBeat")
+})
+
 
 let prevScrollops = window.pageYOffset;
 
@@ -19,9 +31,6 @@ window.addEventListener('scroll', () => {
 
     prevScrollops = currentScrollops;
 })
-
-
-
 
 
 const myObserver = new IntersectionObserver((entries) => {

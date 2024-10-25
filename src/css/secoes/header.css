@@ -1,5 +1,4 @@
 .header {
-    display: flex;
     width: 100%;
     justify-content: space-between;
     align-items: center;
@@ -16,7 +15,6 @@
 }
 
 .header .image-logo {
-    display: flex;
     align-items: center;
     gap: 3px;
     font-weight: 600;
@@ -28,7 +26,6 @@
 }
 
 .header .image-logo .title-obra-lumen {
-    display: flex;
     flex-direction: column;
     color: #5b88a4;
     text-transform: uppercase;
@@ -40,13 +37,17 @@
     margin-left: 8px;
 }
 
+
+.header .navegation,
+.header .navegation ul {
+    gap: 40px;
+}
+
+
 .header .navegation ul {
     font-weight: 600;
     text-transform: uppercase;
     font-size: 3.5rem;
-    display: flex;
-    gap: 40px;
-    
 }
 
 .header .navegation ul a {
@@ -56,15 +57,27 @@
 .header .navegation ul a:hover {
     color: #ed9121;
 }
-
+/* 
 .header .navegation ul li:last-child a {
     color: #fff;
     padding: 10px;
     font-weight: 400;
     background-color: #ed9121;
-    border-radius: 15px;
+    border-radius: 8px;
+} */
+
+
+.header .navegation .btn-doar {
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-family: "Oswald", sans-serif;
 }
 
-.header .navegation ul li:last-child a:hover {
-    padding: 13px 15px
+
+.header .navegation .btn-doar a {
+    color: #fff;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #ed9121;
+    border-radius: 8px;
 }
