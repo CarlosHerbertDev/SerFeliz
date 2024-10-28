@@ -13,17 +13,9 @@
 .main .title {
     flex-direction: column;
     font-size: 6rem;
-    font-family: "Staatliches", sans-serif;
-
-
-    /* font-family: "Chela One", system-ui; */
-
-
-
+    font-family: "Anton", sans-serif;
     color: #5b88a4;
-    text-shadow: black 0.1em 0.1em 0.2em;
-    text-transform: uppercase;
-    
+    text-shadow: black 0.1em 0.1em 0.2em; 
 }
 
 .main .title span {

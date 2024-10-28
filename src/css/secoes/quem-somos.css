@@ -12,15 +12,11 @@
 }
 .quem-somos .title {
     padding-top:  70px;
-    /* font-family: "Permanent Marker", sans-serif ; */
-
-    font-family: "Staatliches", sans-serif;
-
+    font-family: "Anton", sans-serif;
     font-size: 3.5rem;
     text-align: center;
     color: #ed9121;
     text-shadow: black  0.1em 0.1em 0.4em; 
-    text-transform: uppercase;
 }
 
 .quem-somos .title .animate__fadeIn {
@@ -31,7 +27,6 @@
     width: 50%;
     font-weight: 300;
     font-size: 3rem;
-    margin-left: 1%;
     flex-direction: column;
     gap: 15px;
     padding: 2%;
@@ -46,7 +41,6 @@
 .quem-somos .container .info .cards {
     justify-content: center;
     align-items: center;
-    flex-basis: 0;
     gap: 8px;
 }
 
@@ -55,6 +49,17 @@
     text-align: center;
     border: 2px solid #fff;
     border-radius: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 0;
+    min-height: 150px;
+    min-width: 200px; */
+    /* display: flex;
+    flex-wrap: wrap; */
+    /* flex-direction: column; */
+    /* max-height: 100% */
 }
 
 .quem-somos .container .info .cards .card h1 {
@@ -65,8 +70,10 @@
 .quem-somos .container .info .gospel p{
     font-size: 1.5rem;
     padding: 5px;
+    text-align: center;
+    /* min-width: 100px;
+    min-height: 100px; */
 }
-
 
 .quem-somos .container .images {
     width: 50%;
