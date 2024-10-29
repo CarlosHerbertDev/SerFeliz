@@ -49,30 +49,24 @@
     text-align: center;
     border: 2px solid #fff;
     border-radius: 10px;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    flex-basis: 0;
-    min-height: 150px;
-    min-width: 200px; */
-    /* display: flex;
-    flex-wrap: wrap; */
-    /* flex-direction: column; */
-    /* max-height: 100% */
 }
+
+.quem-somos .container .info .cards .card {
+    width: 300px;
+    height: 200px;
+}
+
 
 .quem-somos .container .info .cards .card h1 {
     font-size: 2rem;
+    margin-top: 20px;
 }
 
 .quem-somos .container .info .cards .card p,
 .quem-somos .container .info .gospel p{
     font-size: 1.5rem;
-    padding: 5px;
-    text-align: center;
-    /* min-width: 100px;
-    min-height: 100px; */
+    padding: 10px;
+    text-align: center; 
 }
 
 .quem-somos .container .images {
@@ -92,6 +86,28 @@
     padding: 7px 10px 30px;
 
 }
+    @media (max-width: 862px) {
+        .quem-somos .container .info {
+            text-align: center;
+        }
+
+        .quem-somos .container .info .cards {
+            flex-direction: column;
+        }
+
+        .quem-somos .container .info .cards .card {
+            height: 150px;
+        }
+
+        
+        
+
+    }
+
+
+
+
+
 
     @media (max-width: 600px) {
         .quem-somos .container {
