@@ -26,3 +26,28 @@
 .main .home .title, .main span {
     font-size: 6rem;
 }
+
+@media (max-width: 649px) {
+    .main .title,
+    .main .title span  {
+        font-size: 4.5rem;
+    }
+}
+
+
+    @media (max-width: 494px) {
+        .main .title,
+        .main .title span  {
+            font-size: 4rem;
+        }
+
+        .main .title span {
+            margin-left: 0;
+        }
+
+        .main .title {
+            text-align: center;
+        }
+
+
+    }
