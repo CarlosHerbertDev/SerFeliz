@@ -7,11 +7,10 @@
     top: 0;
     z-index: 1;
     position: fixed;
-    transition: .5s;
 }
 
 .header.hide {
-    transform: translateY(-100%);
+    transform: translateY(-600%);
 }
 
 .header .image-logo {
@@ -97,10 +96,6 @@ transform: rotate(90deg);
 bottom: 0;
 }
 
-
-
-
-
 .header .navegation,
 .header .navegation ul {
     gap: 40px;
@@ -110,6 +105,7 @@ bottom: 0;
     font-weight: 600;
     text-transform: uppercase;
     font-size: 3.5rem;
+    transition: .5s;
 }
 
 .header .navegation ul a {

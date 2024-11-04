@@ -19,9 +19,10 @@ body {
 
 
 
-
-
-
+.animate__flipOutX,
+.animate__flipInX {
+    transition: 5s;
+}
 
 
 

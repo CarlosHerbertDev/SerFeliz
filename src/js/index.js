@@ -1,24 +1,32 @@
 const gallery = document.getElementById('animated-thumbnails')
 const lastOne = document.querySelectorAll('.last-one')
 const nav = document.querySelector(".header")
-const ul = document.getElementById("menu-hamburguer")
+const ulHeader = document.querySelector(".ul-header")
 
 let prevScrollops = window.pageYOffset;
 
 window.addEventListener('scroll', () => {
-
-    
     
     let currentScrollops = window.pageYOffset
-        
-
+    
+    
     if (prevScrollops < currentScrollops) {
-        nav.classList.add('hide')
-    } else {
-        nav.classList.remove('hide')
-        
-    }
+        // nav.classList.add('hide')
+        // ulHeader.classList.add('hidden')
 
+        nav.classList.add('animate__flipOutX')
+        nav.classList.remove('animate__flipInX')
+        
+        
+    } else {
+
+        nav.classList.remove('animate__flipOutX')
+        nav.classList.add('animate__flipInX')
+
+        // nav.classList.remove('hide')
+        // ulHeader.classList.remove('hidden')
+    }
+    
     prevScrollops = currentScrollops;
 })
 
