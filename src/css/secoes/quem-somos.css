@@ -11,12 +11,9 @@
     margin-top: 80px;
 }
 .quem-somos .title {
-    padding-top:  70px;
-    font-family: "Anton", sans-serif;
-    font-size: 3.5rem;
-    text-align: center;
     color: #ed9121;
-    text-shadow: black  0.1em 0.1em 0.4em; 
+    /* text-shadow: black  0.1em 0.1em 0.4em;  */
+    text-shadow: black  0.1em 0.1em 0.1em; 
 }
 
 .quem-somos .title .animate__fadeIn {

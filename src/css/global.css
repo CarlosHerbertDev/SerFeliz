@@ -17,6 +17,12 @@ body {
     opacity: 0;
 }
 
+.title {
+    padding-top:  70px;
+    font-family: "Anton", sans-serif;
+    font-size: 3.5rem;
+    text-align: center;
+}
 
 
 .animate__flipOutX,

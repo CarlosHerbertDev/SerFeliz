@@ -1,0 +1,13 @@
+
+.projetos {
+    color: #000;
+    text-align: center;
+    font-size: 3rem;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.projetos .title {
+    color: #5b88a4;
+    text-shadow: black  0.1em 0.1em 0.1em; 
+}

@@ -10,7 +10,7 @@
     min-height: 700px;
 }
 
-.main .title {
+.main .title-ser-feliz {
     flex-direction: column;
     font-size: 6rem;
     font-family: "Anton", sans-serif;
@@ -18,34 +18,34 @@
     text-shadow: black 0.1em 0.1em 0.2em; 
 }
 
-.main .title span {
+.main .title-ser-feliz span {
     color: #ed9121;
     margin-left: 100px;
 }
 
-.main .home .title, .main span {
+.main .home .title-ser-feliz, .main span {
     font-size: 6rem;
 }
 
 @media (max-width: 649px) {
-    .main .title,
-    .main .title span  {
+    .main .title-ser-feliz,
+    .main .title-ser-feliz span  {
         font-size: 4.5rem;
     }
 }
 
 
     @media (max-width: 494px) {
-        .main .title,
-        .main .title span  {
+        .main .title-ser-feliz,
+        .main .title-ser-feliz span  {
             font-size: 4rem;
         }
 
-        .main .title span {
+        .main .title-ser-feliz span {
             margin-left: 0;
         }
 
-        .main .title {
+        .main .title-ser-feliz {
             text-align: center;
         }
 
