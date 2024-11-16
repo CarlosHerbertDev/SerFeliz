@@ -5,14 +5,10 @@
 }
 
 .quem-somos .container {
-    max-width: 1440px;
-    margin: 0 auto;
     gap: 10px;
-    margin-top: 80px;
 }
 .quem-somos .title {
     color: #ed9121;
-    /* text-shadow: black  0.1em 0.1em 0.4em;  */
     text-shadow: black  0.1em 0.1em 0.1em; 
 }
 
@@ -26,7 +22,7 @@
     font-size: 3rem;
     flex-direction: column;
     gap: 15px;
-    padding: 2%;
+    padding: 3%;
 }
 
 .quem-somos .container .info strong, 
@@ -71,7 +67,7 @@
     border-radius: 10px;
     column-count: 3;
     column-gap: 8px;
-    padding: 2%;
+    padding: 3%;
 }
 
 
