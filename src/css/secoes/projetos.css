@@ -16,3 +16,21 @@
     font-size: 3rem;
     padding: 20px;
 }
+
+.projetos .cards-projetos {
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    
+}
+
+.projetos .cards-projetos .card-projetos {
+    background-color:aquamarine;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.projetos .cards-projetos .card-projetos img {
+    max-width: 350px;
+    /* max-height: 500px; */
+}
