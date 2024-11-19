@@ -9,7 +9,7 @@
 }
 .quem-somos .title {
     color: #ed9121;
-    text-shadow: black  0.1em 0.1em 0.1em; 
+    /* text-shadow: black  0.1em 0.1em 0.1em; */
 }
 
 .quem-somos .title .animate__fadeIn {

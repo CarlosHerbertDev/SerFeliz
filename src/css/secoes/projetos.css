@@ -1,6 +1,7 @@
 
 .projetos {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: rgb(238 242 255);
     color: #000;
     text-align: center;
     font-size: 3rem;
@@ -8,8 +9,7 @@
 }
 
 .projetos .title {
-    color: #5b88a4;
-    text-shadow: black  0.1em 0.1em 0.1em; 
+    color: #5b88a4; 
 }
 
 .projetos .container {
@@ -25,12 +25,21 @@
 }
 
 .projetos .cards-projetos .card-projetos {
-    background-color:aquamarine;
+    background-color:#fff;
     max-width: 400px;
     padding: 20px;
+    border-radius: 8px;
+    box-shadow: #ed9121 0.1em 0.1em 0.1em;
+    border: 2px solid #ed9121;
 }
 
-.projetos .cards-projetos .card-projetos img {
+.projetos .cards-projetos .card-projetos img,
+.projetos .cards-projetos .card-projetos p {
     max-width: 350px;
-    /* max-height: 500px; */
+    border-radius: 8px;
+}
+
+.projetos .cards-projetos .card-projetos h2 {
+    font-size: 3rem;
+    color: #ed9121;
 }
