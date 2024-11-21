@@ -79,20 +79,13 @@
     padding: 7px 10px 30px;
 
 }
-@media (max-width: 600px) {
-    .quem-somos .container {
-        flex-direction: column;
-    }
-    .quem-somos .container .images, .quem-somos .container .info {
-        width: 100%;
-    }
 
-@media (max-width: 862px) {
+@media (max-width: 901px) {
     .quem-somos .container .info {
         text-align: center;
     }    
-
-     .quem-somos .container .info .cards-info {
+    
+    .quem-somos .container .info .cards-info {
         flex-direction: column;
     }    
 
@@ -101,5 +94,11 @@
     }    
 }    
 
-
+@media (max-width: 600px) {
+    .quem-somos .container {
+        flex-direction: column;
+    }
+    .quem-somos .container .images, .quem-somos .container .info {
+        width: 100%;
+    }
 }

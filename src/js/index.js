@@ -2,6 +2,37 @@ const gallery = document.getElementById('animated-thumbnails')
 const lastOne = document.querySelectorAll('.last-one')
 const nav = document.querySelector(".header")
 const ulHeader = document.querySelector(".ul-header")
+const saibaMais = document.querySelectorAll(".card-projetos")
+
+saibaMais.forEach((item, index)=>{
+
+    const saiba = document.querySelectorAll(".saiba-mais")[index]
+
+    saiba.addEventListener('click', () => {
+
+        // const itensAtivos = document.querySelector(".mostrar")
+
+        // if (itensAtivos) itensAtivos.classList.remove("mostrar")
+
+        // item.classList.add("mostrar")
+
+        item.classList.contains("mostrar") ? item.classList.remove("mostrar") : item.classList.add("mostrar") 
+
+
+    })
+})
+
+
+
+
+
+
+
+
+
+
+
+
 
 let prevScrollops = window.pageYOffset;
 

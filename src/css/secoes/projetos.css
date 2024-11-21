@@ -1,11 +1,9 @@
 
 .projetos {
-    /* background-color: #f4f4f4; */
     background-color: rgb(238 242 255);
     color: #000;
     text-align: center;
     font-size: 3rem;
-    
 }
 
 .projetos .title {
@@ -22,18 +20,21 @@
     flex-wrap: wrap;
     gap: 20px;
     justify-content: center;
-    
+    transition: all .6s;
 }
 
 .projetos .cards-projetos .card-projetos {
+    overflow: hidden;
     background-color:#fff;
     max-width: 400px;
+    max-height: 353px;
     padding: 20px;
     border-radius: 8px;
     box-shadow: #5b88a4 0.2em 0.2em 0.2em;
     border: 2px solid #5b88a4;
+    transition: all .6s;
+    /* transition: .6s ease-in-out; */
 }
-
 
 .projetos .cards-projetos .card-projetos img {
     /* box-shadow: 0.1em 0.0em 0.1em 0.1em rgba(0, 0, 0, .2); */
@@ -46,8 +47,7 @@
     border-radius: 8px;
 }
 .projetos .cards-projetos .card-projetos h2,
-.projetos .cards-projetos .card-projetos .descricao-projeto,
-.projetos .cards-projetos .card-projetos .saiba-mais {
+.projetos .cards-projetos .card-projetos .descricao-projeto {
     margin-top: 10px;
 }
 
@@ -59,24 +59,70 @@
 
 
 .projetos .cards-projetos .card-projetos .saiba-mais {
+    margin-top: 15px;
+    margin-bottom: 25px;
     gap: 5px;
     justify-content: center;
+    align-items: center;
 }
 
 .projetos .cards-projetos .card-projetos .saiba-mais h3 {
-    font-size: 1.3rem;
+    font-size: 1.4rem;
     color: #ed9121;
     text-transform: uppercase;
 }
 
 .projetos .cards-projetos .card-projetos .descricao-projeto {
+    /* display: none; */
     background-color: rgb(238 242 255);
     padding: 10px;
     font-size: 1.7rem;
     border: 2px solid #5b88a4;
-
+    transition: ease-in-out .6S;
 }
 
-.projetos .cards-projetos .card-projetos .descricao-projeto {
-    /* display: none; */
+.projetos .cards-projetos .card-projetos .saiba-mais .marker {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 2px solid #ed9121;
+    background-color: #ed9121;
+    display: flex;
 }
+
+.projetos .cards-projetos .card-projetos .saiba-mais .marker .markers {
+    background-color: #fff;
+    position: relative;
+    display: block;
+    width: 9px;
+    height: 2px;
+    top: 5px;
+    left: 1.5px;
+    transition: 0.5s ease-in-out;
+}
+
+
+.projetos .cards-projetos .card-projetos .saiba-mais .marker .markers::after{
+transform: rotate(90deg);
+background-color: #fff;
+content: "";
+display: block;
+width: 100%;
+height: 100%;
+position: absolute;
+}
+
+
+
+.projetos .cards-projetos .card-projetos.mostrar {
+    max-height: 530px;
+}
+
+.projetos .cards-projetos .card-projetos.mostrar .saiba-mais .marker .markers::after{
+    transform: rotate(0deg);
+}
+
+
+/* .projetos .cards-projetos .card-projetos.mostrar .descricao-projeto {
+    display: block;
+} */
