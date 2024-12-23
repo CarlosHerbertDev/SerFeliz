@@ -13,7 +13,7 @@
 
 .projetos .container {
     font-size: 3rem;
-    padding: 20px;
+    padding-bottom: 200px;
 }
 
 .projetos .cards-projetos {
@@ -21,6 +21,7 @@
     gap: 20px;
     justify-content: center;
     transition: all .6s;
+    padding-top: 10px;
 }
 
 .projetos .cards-projetos .card-projetos {
@@ -63,6 +64,7 @@
     gap: 5px;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 
 .projetos .cards-projetos .card-projetos .saiba-mais h3 {
@@ -72,12 +74,12 @@
 }
 
 .projetos .cards-projetos .card-projetos .descricao-projeto {
-    /* display: none; */
     background-color: rgb(238 242 255);
     padding: 10px;
     font-size: 1.7rem;
     border: 2px solid #5b88a4;
     transition: ease-in-out .6S;
+    height: 150px;
 }
 
 .projetos .cards-projetos .card-projetos .saiba-mais .marker {

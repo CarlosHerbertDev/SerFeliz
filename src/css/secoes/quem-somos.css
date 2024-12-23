@@ -22,7 +22,7 @@
     font-size: 3rem;
     flex-direction: column;
     gap: 15px;
-    padding: 3%;
+    padding-inline: 3%;
 }
 
 .quem-somos .container .info strong, 
@@ -67,7 +67,8 @@
     border-radius: 10px;
     column-count: 3;
     column-gap: 8px;
-    padding: 3%;
+    margin-top: 10px;
+    padding-inline: 3%;
 }
 
 

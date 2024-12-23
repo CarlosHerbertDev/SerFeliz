@@ -17,8 +17,12 @@ body {
     opacity: 0;
 }
 
+.show {
+    opacity: 1;
+}
+
 .title {
-    padding-top:  70px;
+    padding: 70px 0px 100px;
     font-family: "Anton", sans-serif;
     font-size: 3.5rem;
     text-align: center;
@@ -27,14 +31,13 @@ body {
 .container {
     max-width: 1440px;
     margin: 0 auto;
-    margin-top: 80px;
+    padding-bottom: 60px;
 }
 
 .animate__flipOutX,
 .animate__flipInX {
     transition: 5s;
 }
-
 
 
 
